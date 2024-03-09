@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.pageItem {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.activePage {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: #007bff;
+  color: #fff;
+}
